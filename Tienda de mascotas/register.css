@@ -1,0 +1,48 @@
+
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Formulario{
+    background-color: rgb(143, 145, 146);
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.Formulario input[type= "text"], .Formulario select{
+    display: block;
+    margin: 20px;
+    width: 80%;
+    padding: 5px;
+    border-radius: 10%;
+    
+     }
+
+.error{
+        border: 2px solid rgb(252, 6, 6);
+     }
+
+
+.logotienda{
+    max-width: 100%;
+    width: 20%;
+    text-align: center;
+    
+ }
+ .card{
+    background-color: antiquewhite;
+    border: 2px;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ #mascotas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+ }

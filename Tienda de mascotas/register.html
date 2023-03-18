@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <Div style="text-align: center;">
+        
+        <img class="logotienda" src="imgperro.png" alt="logoperro">
+    
+    <h3>
+        WELCOME TO MY PET SALON </h3>
+    </Div>
+
+
+    <div>
+
+        <div class="Formulario">
+
+            <h2> Registra una nueva mascota</h2>   
+
+            <input type="text" placeholder= "Ingresa el nombre de la mascota" id= "txtNombre">
+            <input type="text" placeholder="Ingresa el género de la mascota"  id="txtGenero">
+            <input type="text" placeholder="Ingresa la raza de la mascota" id="txtRaza"> 
+            <input type="text" placeholder="Ingresa un número de teléfono" id="txtTelefono">
+            <select id="selServicio">
+                <option value="" disabled selected>-- selecciona un servicio--</option>
+                <option value="Vacunas"> Vacunas </option>
+                <option value="Grooming"> Grooming </option>
+                <option value="Baño">Baño de mascota</option>
+                <option value="Peluquería">Peluquería</option>
+            </select>
+            <button onclick="Registro();"> Registrar</button>
+        </div>
+    
+        <h2> Mascotas en el sistema</h2>
+        <div id="mascotas"> 
+            <!-- aquí se insertarán las mascotas-->
+        </div>
+        
+    </div>
+    <script src="scripts/register.js"></script>
+    <script src="scripts/display.js"></script>
+
+</body>
+</html>
