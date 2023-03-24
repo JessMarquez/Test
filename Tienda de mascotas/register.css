@@ -5,25 +5,36 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+.logotienda{
+    margin-top: 100PX;
+}
+
 .Formulario{
-    background-color: rgb(143, 145, 146);
+    background-color: rgb(233, 139, 32);
     padding: 30px;
     border-radius: 10px;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin: 0 auto;   
 }
 
 .Formulario input[type= "text"], .Formulario select{
     display: block;
-    margin: 20px;
+    margin: 30px;
     width: 80%;
     padding: 5px;
-    border-radius: 10%;
-    
+    border-radius: 10px;
+    margin: 0 auto; 
      }
 
+h2{
+    font-weight: 200;
+}
+h4{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+}
 .error{
         border: 2px solid rgb(252, 6, 6);
      }
@@ -36,13 +47,129 @@ body{
     
  }
  .card{
-    background-color: antiquewhite;
-    border: 2px;
-    padding: 10px;
-    border-radius: 10px;
+    background-color: rgb(107, 107, 107);
+    border: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 90px;
+    
+
  }
  #mascotas{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: left;
+    
+ }
+ h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: auto;
+ }
+
+
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 100px;
+}
+
+.logo {
+    margin-left: 30px;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 1px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #f39314;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(imgperro.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #cf1515;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .navbar {
+        display: none;
+    }
+    #mascotas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: left;
+         }
  }

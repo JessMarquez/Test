@@ -11,7 +11,12 @@ for(let i=0; i<pets.length;i++){
         <p>Nombre: ${pets[i].nombre} </p> 
         <p>Genero: ${pets[i].genero} </p>
         <p>Raza:   ${pets[i].raza}  </p>
-    </div>
+        <P>Teléfono:   ${pets[i].telefono} </p>
+        <p>E-mail: ${pets[i].correo} </p>
+        <p>Dirección: ${pets[i].direccion} </p> 
+        <p>Tipo de servicio: ${pets[i].servicio} </p>
+        
+     </div>
     `;  
 }
 console.log(card);
